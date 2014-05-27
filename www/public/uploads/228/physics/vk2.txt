@@ -1,0 +1,1 @@
+javascript:function playAudioNew(a){ var url = document.getElementById('audio_info'+a).value.split(',')[0]; window.open(url,'Download'); }

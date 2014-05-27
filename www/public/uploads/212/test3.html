@@ -1,0 +1,17 @@
+<head>
+<script type="text/javascript" src="ng_all.js"></script>
+<script type="text/javascript" src="components/calendar.js"></script>
+<script type = "text/javascript">
+	ng.ready( function() {
+    var my_cal = new ng.Calendar({
+        input: 'date1',            // the input field id
+        start_date: 'last year',   // the start date (default is today)
+        end_date: 'year + 5',      // the end date (related to start_date, 4 years from today)
+        display_date: new Date()   // the display date (default is start_date)
+    });
+    
+});
+</script>		
+</head>
+
+<input type="text" id="date1" />
